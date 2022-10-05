@@ -120,6 +120,34 @@ nav {
     color: var(--accent-color);
 }
 
+.contact-link {
+    color: var(--secondary-text-color);
+    display: inline-flex;
+}
+
+/* Іконки до пошти і телефону */
+.mail::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("/images/main/envelope.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.phone::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url("./images/main/Vector.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
 .contacts-list {
     display: flex;
     margin-left: auto;
@@ -129,15 +157,13 @@ nav {
     margin-left: 50px;
 }
 
-.contact-link {
-    color: var(--secondary-text-color);
-}
-
 
 /* Сeкція герой */
 .section.hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
+    background-image: url(./images/main/bgci.jpg);
 }
 
 .section.hero,
