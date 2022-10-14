@@ -131,7 +131,7 @@ nav {
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background-image: url("/images/main/envelope.png");
+    background-image: url("./images/main/envelope.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
