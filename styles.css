@@ -159,11 +159,12 @@ nav {
 
 
 /* Сeкція герой */
-.section.hero {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
     background-image: url(./images/main/bgci.jpg);
+    width: 1200px;
 }
 
 .section.hero,
